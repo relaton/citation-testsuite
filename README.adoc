@@ -1,0 +1,34 @@
+= citation-testsuite
+
+The shared citation rendering corpus: Relaton item records and the
+expected rendering of each, per house style. Both engines execute this
+corpus — relaton-render (Ruby) and relaton-ts (TypeScript) — so a
+rendering contract is pinned once and enforced in both stacks, the
+same way pubid-testsuite pins identifier semantics.
+
+== Layout
+
+----
+records/<name>.json   a Relaton item as loose data (the renderers' input)
+golden/<name>.json    style family -> expected rendering string
+----
+
+The golden keys are the style families both engines ship: `iso690`
+(the ISO 690 name-and-date style, pack `author-date`), `chicago`,
+`apa`. A record's expected string is asserted verbatim.
+
+== Consumers
+
+- relaton-render: `spec/corpus` — renders each record through the
+  style pack and asserts the golden string.
+- relaton-ts: `test/golden_render.test.ts` — same records, same
+  assertions, through `Style.load` + the ISO 690 template engine.
+
+Point the consumer at this checkout (`CITATION_TESTSUITE_DIR`), or
+place it as a sibling directory (`../citation-testsuite`).
+
+== Changing the corpus
+
+A golden changes only with a deliberate rendering change: the change
+lands in the engine or pack first, the new rendering is reviewed, and
+the golden commit accompanies it. A golden never changes silently.

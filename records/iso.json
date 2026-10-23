@@ -1,0 +1,40 @@
+{
+  "docidentifier": [
+    {
+      "content": "ISO 9001:2015",
+      "type": "ISO",
+      "primary": true
+    }
+  ],
+  "title": [
+    {
+      "content": "Quality management systems — Requirements",
+      "language": "en",
+      "script": "Latn",
+      "type": "main"
+    }
+  ],
+  "date": [
+    {
+      "type": "published",
+      "at": "2015-09-15"
+    }
+  ],
+  "contributor": [
+    {
+      "organization": {
+        "name": [
+          {
+            "content": "International Organization for Standardization"
+          }
+        ]
+      },
+      "role": [
+        {
+          "type": "publisher"
+        }
+      ]
+    }
+  ],
+  "edition": "5"
+}

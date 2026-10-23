@@ -1,0 +1,39 @@
+{
+  "docidentifier": [
+    {
+      "content": "IEC 61000-4-2:2008",
+      "type": "IEC",
+      "primary": true
+    }
+  ],
+  "title": [
+    {
+      "content": "Electromagnetic compatibility (EMC) — Part 4-2: Testing and measurement techniques — Electrostatic discharge immunity test",
+      "language": "en",
+      "script": "Latn",
+      "type": "main"
+    }
+  ],
+  "date": [
+    {
+      "type": "published",
+      "at": "2008-12"
+    }
+  ],
+  "contributor": [
+    {
+      "organization": {
+        "name": [
+          {
+            "content": "International Electrotechnical Commission"
+          }
+        ]
+      },
+      "role": [
+        {
+          "type": "publisher"
+        }
+      ]
+    }
+  ]
+}

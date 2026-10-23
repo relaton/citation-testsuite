@@ -1,0 +1,39 @@
+{
+  "docidentifier": [
+    {
+      "content": "ITU-T G.9960 (2018-06)",
+      "type": "ITU",
+      "primary": true
+    }
+  ],
+  "title": [
+    {
+      "content": "Unified high-speed wireline-based home networking transceivers — System architecture and physical layer specification",
+      "language": "en",
+      "script": "Latn",
+      "type": "main"
+    }
+  ],
+  "date": [
+    {
+      "type": "published",
+      "at": "2018-06"
+    }
+  ],
+  "contributor": [
+    {
+      "organization": {
+        "name": [
+          {
+            "content": "International Telecommunication Union"
+          }
+        ]
+      },
+      "role": [
+        {
+          "type": "publisher"
+        }
+      ]
+    }
+  ]
+}

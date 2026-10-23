@@ -1,0 +1,78 @@
+{
+  "docidentifier": [
+    {
+      "content": "RFC 9110",
+      "type": "IETF",
+      "primary": true
+    }
+  ],
+  "title": [
+    {
+      "content": "HTTP Semantics",
+      "language": "en",
+      "script": "Latn",
+      "type": "main"
+    }
+  ],
+  "date": [
+    {
+      "type": "published",
+      "at": "2022-06"
+    }
+  ],
+  "contributor": [
+    {
+      "person": {
+        "name": {
+          "given": "Roy",
+          "surname": "Fielding"
+        }
+      },
+      "role": [
+        {
+          "type": "author"
+        }
+      ]
+    },
+    {
+      "person": {
+        "name": {
+          "given": "Mark",
+          "surname": "Nottingham"
+        }
+      },
+      "role": [
+        {
+          "type": "author"
+        }
+      ]
+    },
+    {
+      "person": {
+        "name": {
+          "given": "Julian",
+          "surname": "Reschke"
+        }
+      },
+      "role": [
+        {
+          "type": "author"
+        }
+      ]
+    },
+    {
+      "organization": {
+        "name": [
+          {
+            "content": "RFC Editor"
+          }
+        ]
+      },
+      "role": [
+        {
+          "type": "publisher"
+        }
+      ]
+    }
+  ]
+}

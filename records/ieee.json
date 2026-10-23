@@ -1,0 +1,39 @@
+{
+  "docidentifier": [
+    {
+      "content": "IEEE 802.3-2018",
+      "type": "IEEE",
+      "primary": true
+    }
+  ],
+  "title": [
+    {
+      "content": "IEEE Standard for Ethernet",
+      "language": "en",
+      "script": "Latn",
+      "type": "main"
+    }
+  ],
+  "date": [
+    {
+      "type": "published",
+      "at": "2018-06-14"
+    }
+  ],
+  "contributor": [
+    {
+      "organization": {
+        "name": [
+          {
+            "content": "Institute of Electrical and Electronics Engineers"
+          }
+        ]
+      },
+      "role": [
+        {
+          "type": "publisher"
+        }
+      ]
+    }
+  ]
+}

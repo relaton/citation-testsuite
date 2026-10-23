@@ -1,0 +1,39 @@
+{
+  "docidentifier": [
+    {
+      "content": "NIST SP 800-53 Rev. 5",
+      "type": "NIST",
+      "primary": true
+    }
+  ],
+  "title": [
+    {
+      "content": "Security and Privacy Controls for Information Systems and Organizations",
+      "language": "en",
+      "script": "Latn",
+      "type": "main"
+    }
+  ],
+  "date": [
+    {
+      "type": "published",
+      "at": "2020-09"
+    }
+  ],
+  "contributor": [
+    {
+      "organization": {
+        "name": [
+          {
+            "content": "National Institute of Standards and Technology"
+          }
+        ]
+      },
+      "role": [
+        {
+          "type": "publisher"
+        }
+      ]
+    }
+  ]
+}
