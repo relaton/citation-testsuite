@@ -1,0 +1,49 @@
+{
+  "docidentifier": [
+    {
+      "content": "JIS B 0001:2019",
+      "type": "JIS",
+      "primary": true
+    }
+  ],
+  "title": [
+    {
+      "content": "Technical drawings — General principles of presentation",
+      "language": "en",
+      "script": "Latn",
+      "type": "main"
+    },
+    {
+      "content": "製図 — 表示の通則",
+      "language": "ja",
+      "script": "Jpan",
+      "type": "main"
+    }
+  ],
+  "date": [
+    {
+      "type": "published",
+      "at": "2019-03-20"
+    }
+  ],
+  "contributor": [
+    {
+      "organization": {
+        "name": [
+          {
+            "content": "Japanese Standards Committee"
+          }
+        ],
+        "abbreviation": {
+          "content": "JSC"
+        }
+      },
+      "role": [
+        {
+          "type": "publisher"
+        }
+      ]
+    }
+  ],
+  "edition": "1"
+}

@@ -13,9 +13,13 @@ records/<name>.json   a Relaton item as loose data (the renderers' input)
 golden/<name>.json    style family -> expected rendering string
 ----
 
-The golden keys are the style families both engines ship: `iso690`
-(the ISO 690 name-and-date style, pack `author-date`), `chicago`,
-`apa`. A record's expected string is asserted verbatim.
+The golden keys are the style families both engines ship: the house
+styles `iso690` (the ISO 690 name-and-date style, pack `author-date`),
+`chicago`, `apa`, `mla` — present in every golden — plus style
+families a record may pin when both engines render them (the language
+contract: `relaton/relaton` `docs/citation-style.md`); the JIS families
+`jis-en`/`jis-ja` are the worked example. A record's expected string is
+asserted verbatim, byte-identical across both engines.
 
 == Consumers
 
